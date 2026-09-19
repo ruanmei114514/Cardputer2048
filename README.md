@@ -8,6 +8,8 @@
 
 棋盘在左边，右边那条竖着排了电量、当前分数、最高分，最下面是按键提示和状态。
 
+固件在 [Releases](https://github.com/ruanmei114514/Cardputer2048/releases/latest) 里，下载那个 `Cardputer2048-cardputer-adv.bin` 就能刷（怎么刷看下面）。
+
 ## 怎么玩
 
 方向键推方块，两个一样的撞一起就合并，凑到 2048 算赢；格子占满又没有能合的，就结束。
@@ -23,7 +25,7 @@
 
 ## 刷进机器
 
-根目录的 `Cardputer2048-cardputer-adv.bin` 是整包镜像（bootloader + 分区表 + 程序），从 0x0 刷：
+固件是整包镜像（bootloader + 分区表 + 程序）。从 [Releases](https://github.com/ruanmei114514/Cardputer2048/releases/latest) 下 `Cardputer2048-cardputer-adv.bin`，仓库根目录里也放了一份一样的，不想走 Release 直接从仓库拿也行。拿到之后从 0x0 刷：
 
 ```bash
 esptool --chip esp32s3 --port /dev/ttyACM0 --baud 1500000 write_flash 0x0 Cardputer2048-cardputer-adv.bin
