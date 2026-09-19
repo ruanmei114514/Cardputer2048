@@ -2,7 +2,7 @@
 
 给 M5Stack Cardputer ADV 写的 2048。Arduino 写的，源码和现成固件都在这个仓库里。
 
-> **这个项目是 AI 写的：** 代码、注释和这份 README 都由 **DeepSeek V4.1 Flash** 生成，生成之后在真机上逐条验证过。
+> **这个项目是 AI 写的：** 代码、注释和这份 README 都是在 **Codex 应用**里用 **DeepSeek V4.1 Flash** 模型生成的，生成之后在真机上逐条验证过。
 
 ![画面预览](docs/preview.gif)
 
