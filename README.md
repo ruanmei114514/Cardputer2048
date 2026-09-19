@@ -115,7 +115,7 @@ python3 test/make_preview.py /tmp/cp2048_preview                       # 出 pre
 
 ## 许可
 
-这个仓库里自己写的东西（`src/`、`test/`、README、文档）用 **The Unlicense**，也就是公有领域：随便用、随便改、随便卖、闭源也行，连署名都不需要。全文见 [LICENSE](LICENSE)。
+这个仓库里自己写的东西（`src/`、`test/`、README、文档）用 **MIT License**：拿去用、改、集成进自己的项目、甚至商用都可以，只要保留版权声明和许可声明。全文见 [LICENSE](LICENSE)。
 
 发布的固件里链接了 M5Stack 的几个 MIT 库（M5Unified、M5GFX、M5Cardputer）和 LovyanGFX，这些库的版权与许可归各自作者，用的时候按它们的 MIT 条款走：
 
